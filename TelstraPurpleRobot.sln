@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TelstraPurpleRobot", "TelstraPurpleRobot\TelstraPurpleRobot.fsproj", "{81E0167B-4CA9-4FDB-990C-63FFCACEDB53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E0167B-4CA9-4FDB-990C-63FFCACEDB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E0167B-4CA9-4FDB-990C-63FFCACEDB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E0167B-4CA9-4FDB-990C-63FFCACEDB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E0167B-4CA9-4FDB-990C-63FFCACEDB53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FE376C5-CB9B-4A87-AE56-2EC13FCCC9F9}
+	EndGlobalSection
+EndGlobal
