@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Include="Util.fs" />
+    <Compile Include="Robot.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
