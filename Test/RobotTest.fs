@@ -1,7 +1,7 @@
 module RobotTest
 
 open NUnit.Framework
-open Robot
+open Run
 
 let integrationTest linesIn output =
     let mutable lines = [] @ linesIn

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net472</TargetFramework> 
@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <Compile Include="Util.fs" />
-    <Compile Include="Robot.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Robot\Act.fs" />
+    <Compile Include="Robot\Parse.fs" />
+    <Compile Include="Robot\Run.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>

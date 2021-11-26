@@ -1,6 +1,6 @@
 ﻿module Program
 
-open Robot
+open Run
 
 [<EntryPoint>]
 let main argv =
