@@ -19,7 +19,7 @@ let rec readline (reader, printer, table : Table, event: ActionEvent) =
     let line = reader()
     let next table event result =
         printer result
-        let finished = fst3 event = Action.FINISHED
+        let finished = fst3 event = Action.EXIT
         if finished then
             "\n"
         else

@@ -9,3 +9,6 @@
 /Test/bin/Debug/net472
 /Test/obj/Debug/net472
 /Test/obj
+
+.fake
+.ionide

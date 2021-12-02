@@ -49,8 +49,12 @@ let Act table event =
             ("", (Action.MOVE, (x,y),heading) |> Some)
         | None -> 
             ("Invalid Move \n", None)
+    | (true, (Action.JUMP, (x,y), heading)) ->
+        ("JUMPED \n", None)
     | (true, (Action.REPORT, (x,y), heading)) ->
-        ((x, y, heading.ToString())  |||> sprintf "%i,%i,%s", Some (Action.FINISHED, (x,y), heading))
+        ((x, y, heading.ToString())  |||> sprintf "%i,%i,%s \n", Some (Action.REPORT, (x,y), heading))
+    | (true, (Action.EXIT, (x,y), heading)) ->
+        ("", None)
     | (true, (direction, pos, heading)) ->
         let newHeading = switchHeading heading direction
         ("",Some (direction, pos, newHeading))

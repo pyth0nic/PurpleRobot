@@ -4,7 +4,7 @@ open System
 open System.Text.RegularExpressions
 open Types
 
-let actionsReg = "^(MOVE|LEFT|RIGHT|REPORT)"
+let actionsReg = "^(MOVE|LEFT|RIGHT|REPORT|JUMP|EXIT)"
 let placeReg = "^(PLACE)\s(\d),(\d),(NORTH|SOUTH|EAST|WEST)"
 let placeRegNoHeading = "^(PLACE)\s(\d),(\d)"
 
